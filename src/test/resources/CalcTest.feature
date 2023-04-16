@@ -7,6 +7,7 @@ Feature: calculator addition tests
     Given calculator app is up and running
     When numA equals <a>
     And numB equals <b>
+#    THE PROBLEM IS HERE : IF C IS STRING IS IT STILL GONNA BE <C>??
     And type equals <c>
     Then result should be equal <expectedResult>
     Examples:

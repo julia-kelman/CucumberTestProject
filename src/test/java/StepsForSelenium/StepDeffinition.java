@@ -35,7 +35,7 @@ public class StepDeffinition {
         System.out.println("second num is " + b);
     }
 
-
+//THE PROBLEM IS HERE : IS THIS CORRECT  {String}??
     @And("type equals {String}")
     public void typeEqualsC(String c) {
         typeC=c;
